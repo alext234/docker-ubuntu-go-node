@@ -5,7 +5,10 @@ RUN apt-get install --yes gnupg
 RUN curl --silent --location https://deb.nodesource.com/setup_10.x |  bash -
 RUN apt-get install --yes nodejs
 RUN apt-get install --yes build-essential
+RUN apt-get install -y python-pip
 
+# aws cli
+RUN pip install awscli
 
 # Configure Go
 

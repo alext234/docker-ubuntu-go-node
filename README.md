@@ -30,3 +30,5 @@ Some utilities installed:
 
 - docker-compose
 
+- `aws` cli
+

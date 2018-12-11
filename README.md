@@ -30,5 +30,7 @@ Some utilities installed:
 
 - docker-compose
 
-- `aws` cli
+- `aws` cli 
+
+- jq (useful for processing json output) 
 

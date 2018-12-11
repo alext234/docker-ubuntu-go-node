@@ -7,6 +7,10 @@ RUN apt-get install --yes nodejs
 RUN apt-get install --yes build-essential
 RUN apt-get install -y python-pip
 
+
+# jq json processor
+RUN apt-get install -y jq
+
 # aws cli
 RUN pip install awscli
 
